@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+
+.edit-photo-container {
+    height: 950px;
+    background-color: #607D8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-edit-container {
+    width: 1300px;
+    height: 800px;
+    background-color: #455A64;
+    border-radius: 10px;
+    display: flex;
+}
+.edit-photo-pt1 {
+    width: 120px;
+    height: 100%;
+    background-color: #546E7A;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.edit-photo-icon {
+    text-align: center;
+    padding: 10px;
+}
+.edit-photo-icon a {
+    font-size: 60px;
+    text-decoration: none;
+    color: #262e38;
+    transition: 0.3s;
+}
+/* .edit-photo-icon:hover .edit-photo-icon-text {
+    cursor: pointer;
+    display: block;
+} */
+.edit-photo-icon-text {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: -8px;
+    color: #171e22;
+    display: none;
+}
+.ed:hover {
+    cursor: pointer;
+    background-color: #455A64;
+    border-radius: 10px 0px 0px 10px;
+}
+.ed:hover .edit-photo-icon-text {
+    display: block;
+}
+.ed:hover .edit-photo-icon a {
+    color: #E64A19;
+}
+
+.edit-logo {
+    /* position: absolute; */
+    /* right: 18%; */
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    color: rgb(138, 138, 138);
+}
+.image-edit-area {
+    border: 2px dashed rgb(184, 181, 181);
+    width: 700px;
+    height: 300px;
+    margin-top: 250px;
+    margin-left: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-edit-area:hover {
+    cursor: pointer;
+}
+.main-image-edit-area {
+    text-align: center;
+}
+.main-image-edit-area a {
+    text-decoration: none;
+    font-size: 60px;
+    color: rgb(138, 137, 137);
+}
+.main-image-edit-area a:hover {
+    color: rgb(177, 174, 174);
+}
+.main-image-edit-area p {
+    font-size: 30px;
+    color: rgb(138, 137, 137);
+}
